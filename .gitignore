@@ -51,8 +51,15 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+# gcov files
+*.gcda
+*.gcno
+*.gcov
+
+# VS files
 *.code-workspace
-
-out/
-
 .editorconfig
+
+# other dirs
+out/
+logs/
